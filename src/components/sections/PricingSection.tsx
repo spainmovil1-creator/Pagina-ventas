@@ -42,7 +42,7 @@ const PricingSection = () => {
             </p>
 
             <CTAButton 
-              href="https://tu-enlace-de-pago.com" 
+              href="https://payhip.com/b/wyfLK" 
               size="lg"
               className="w-full md:w-auto"
             >
