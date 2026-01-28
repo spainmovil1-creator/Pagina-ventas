@@ -1,13 +1,33 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import HeroSection from "@/components/sections/HeroSection";
+import PainPointsSection from "@/components/sections/PainPointsSection";
+import SolutionSection from "@/components/sections/SolutionSection";
+import ContentSection from "@/components/sections/ContentSection";
+import ComparisonSection from "@/components/sections/ComparisonSection";
+import ValueSection from "@/components/sections/ValueSection";
+import PricingSection from "@/components/sections/PricingSection";
+import StepsSection from "@/components/sections/StepsSection";
+import FinalCTASection from "@/components/sections/FinalCTASection";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <main className="overflow-hidden">
+      <HeroSection />
+      <PainPointsSection />
+      <SolutionSection />
+      <ContentSection />
+      <ComparisonSection />
+      <ValueSection />
+      <PricingSection />
+      <StepsSection />
+      <FinalCTASection />
+      
+      {/* Footer simple */}
+      <footer className="py-8 bg-primary text-primary-foreground text-center">
+        <p className="font-body text-sm opacity-70">
+          © {new Date().getFullYear()} Manual de Supervivencia Fiscal. Todos los derechos reservados.
+        </p>
+      </footer>
+    </main>
   );
 };
 
